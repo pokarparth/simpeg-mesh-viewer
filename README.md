@@ -4,8 +4,9 @@ Interactive viewer with a movable slicer for meshes and models created using `di
 
 > **⚠️ CAUTION:** A lot of this was created using AI (Claude). Plotting code is tedious…
 
+
 Built for `discretize` **TensorMesh** and **TreeMesh** models using **Plotly + ipywidgets**.  
-Explore 3D models, toggle log scales/outlines/3D points, and step through slices with sliders, prev/next buttons, or custom jump sizes.
+Step through model slices with sliders, prev/next buttons, or custom jump sizes. Toggle log scales/outlines/3D points
 
 
 ## Usage
