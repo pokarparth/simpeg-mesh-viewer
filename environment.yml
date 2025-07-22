@@ -1,0 +1,14 @@
+name: simpeg-mesh-viewer
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.*
+  - numpy=2.3.0
+  - discretize=0.11.3
+  - simpeg=0.24.0            # optional
+  - plotly=6.2.0
+  - matplotlib=3.10.3        # optional (for in-built discretize mesh viewers)
+  - ipywidgets=8.1.7
+  - scipy=1.15.2             # optional (for TreeMesh)
+  - pyvista=0.45.2
+  - jupyterlab
