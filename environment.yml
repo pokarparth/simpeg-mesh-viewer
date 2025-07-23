@@ -10,5 +10,4 @@ dependencies:
   - matplotlib=3.10.3        # optional (for in-built discretize mesh viewers)
   - ipywidgets=8.1.7
   - scipy=1.15.2             # optional (for TreeMesh)
-  - pyvista=0.45.2
   - jupyterlab
