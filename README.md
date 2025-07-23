@@ -15,12 +15,11 @@ Step through model slices with sliders, prev/next buttons, or custom jump sizes.
 2. Import and run as :
    ```python
    from mesh_viewer import create_mesh_viewer
-   viewer_auto = create_mesh_viewer(mesh, model, cmap="viridis", log_scale=True)
-   viewer_auto.show()
+   create_mesh_viewer(mesh, model, cmap="viridis", log_scale=True)
 
 ## Files
 - `large_octree_mesh.txt` is an Octree mesh file with 769288 cells.
 - `mesh-plotter_v0.ipynb` contains examples of viewer being used to plot Tensor and Octree meshes.
 
 ## Screenshot
-<img width="1579" height="809" alt="TreemeshViewer" src="https://github.com/user-attachments/assets/d43a9616-cee8-455f-b76d-5f76460a235b" />
+<img width="885" height="841" alt="TreemeshViewer" src="https://github.com/user-attachments/assets/33f491a3-28be-4aae-af0f-9bef63ebd491" />
